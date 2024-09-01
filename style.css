@@ -1,0 +1,29 @@
+
+        .styled_para{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+        #btn{
+            border-radius: 5px;
+            background-color: green;
+            color: brown;
+            transition: transform 0.3s ease;
+        }
+        #btn-scale:hover{
+            border-radius: 5px;
+            background-color: red;
+            color: black;
+           
+        }
+        #first{
+            display: flex;
+            /* background-color: pink; */
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        body{
+            background-image:url("fishmarketbg2.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
